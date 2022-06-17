@@ -1,0 +1,202 @@
+.header{
+    padding: 15px 20px;
+    background: #222;
+}
+
+.product-area{
+    padding: 0px 0px;
+}
+
+.order-overview{
+    background: #D5DBDB;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.order-overview{
+    display: flex;
+}
+
+.overview span{
+    display: list-item;
+    list-style: none;
+    font-size: 24px;
+}
+
+.overview{
+    padding: 12px 0px 12px 40px;
+}
+
+.order-details{
+    padding: 10px 20px;
+    border: 1px solid #D5DBDB;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.order-details h2{
+    font-size: 20px;
+}
+
+.product-img img{
+    width: 150px;
+    height: auto;
+}
+
+.order-data{
+    display: flex;
+}
+
+.product-details{
+    padding: 0px 20px;
+}
+
+.product-details h3{
+    font-size: 18px;
+}
+
+.Product-qty{
+    display: flex;
+}
+
+.custom-select{
+    display: flex;
+    border-radius: 5px;
+    background: #D5DBDB;
+    padding: 5px 10px;
+}
+
+.custom-select select{
+    font-size: 16px;
+    border: none;
+    background: #D5DBDB;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-appearance: none;
+}
+
+.custom-select select:focus{
+    border: none;
+    outline: none;
+}
+
+.buy button{
+    padding: 5px 15px;
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    background: #f8bc04;
+}
+
+.buy button:hover{
+    background: black;
+}
+
+.order-data{
+    margin-top: 20px;
+}
+
+.product-details ul{
+    display: inline-block;
+    margin-left: -30px;
+}
+
+.product-details a{
+    color: #1ABC9C;
+}
+
+.product-details a:hover{
+    color: #117864;
+}
+
+.product-details ul li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 850px){
+    .product-details ul li{
+        padding-top: 10px;
+    }
+}
+
+.configuration{
+    margin-top: 20px;
+    border-radius: 15px;
+    /* border: solid 1px #D5DBDB; */
+    display: flex;
+}
+
+.product-configuration .heading{
+    padding: 5px 20px;
+}
+
+.product-configuration .heading h3{
+    font-size: 20px;
+}
+
+.product-configuration{
+    width: 100%;
+}
+
+.product-configuration ul{
+    margin-left: -10px;
+}
+
+.product-configuration ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+.delivery-configuration{
+    border-left: solid 1px #D5DBDB;
+    width: 100%;
+}
+
+.delivery-configuration .heading{
+    padding: 5px 20px;
+}
+
+.delivery-configuration .heading h3{
+    font-size: 20px;
+}
+.delivery-configuration .heading h2{
+    font-size: 18px;
+}
+.delivery-configuration ul{
+    margin-left: -10px;
+}
+
+.delivery-configuration ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+.order-confirm{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.btn-solid {
+    padding: 8px 12px;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    border: 2px solid #f8bc04;
+    background-image: linear-gradient(30deg, #f8bc04 50%, transparent 50%);
+    background-size: 850px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+.btn-solid:hover {
+    padding: 8px 12px;
+    color: #f8bc04;
+    letter-spacing: 0.05em;
+    border: 2px solid #f8bc04;
+    background: #ffffff;
+}

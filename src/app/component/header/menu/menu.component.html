@@ -1,0 +1,28 @@
+<nav>
+    <div class="logo">
+        <a routerLink="./../home">
+            <img src="./../../../../assets/logo.png" alt="logo">
+        </a>
+    </div>
+    <div class="toggle">
+        <a href="javascript:void(0)" (click)="addClass()"><i
+                [ngClass]="add == true ? 'fa fa-close' : 'fa fa-bars'"></i></a>
+    </div>
+    <div class="search-wrapper">
+        <div class="search-menu">
+            <div class="box_custom">
+                <input type="text" class="input" placeholder="Search. . .">
+                <button class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+        <div class="search-menu-responsive">
+            <input type="text" placeholder="Search">
+        </div>
+        <ul class="menu" [ngClass]="{'active': add === true}">
+            <li><a routerLink="/login">Sign In</a></li>
+            <li><a routerLink="/register">Sign Up</a></li>
+        </ul>
+    </div>
+</nav>

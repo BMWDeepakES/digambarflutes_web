@@ -1,0 +1,172 @@
+.header{
+    padding: 15px 20px;
+    background: #222;
+}
+
+.register-page h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 700;
+    margin-top: -4px;
+}
+
+.register-page{
+    margin-top: 50px;
+}
+
+.register-page  .theme-card {
+    padding: 25px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 10px 11px !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+.theme-form input {
+    margin-bottom: 25px;
+    padding: 13px 18px;
+}
+
+.theme-form label {
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: bold;
+}
+
+.section-b-space {
+    padding-bottom: 30px;
+}
+
+.register-page .theme-card {
+    padding: 30px;
+    border: 1px solid #dddddd;
+    line-height: 1;
+}
+
+.theme-card {
+    position: relative;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.form-row div{
+    padding: 10px 10px;
+}
+
+.form-row div label{
+    margin-bottom: 10px;
+}
+
+.btn-solid {
+    padding: 12px 20px;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    border: 2px solid #f8bc04;
+    background-image: linear-gradient(30deg, #f8bc04 50%, transparent 50%);
+    background-size: 850px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    text-transform: uppercase;
+    margin-left: 4px;
+}
+
+.btn-solid:hover {
+    padding: 12px 20px;
+    color: #f8bc04;
+    letter-spacing: 0.05em;
+    border: 2px solid #f8bc04;
+    background: #ffffff;
+}
+
+.form-row textarea{
+    width: 100%;
+    resize: none;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 10px 11px !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    height: 180px;
+}
+
+.form-row textarea:focus{
+    outline: none;
+}
+
+.theme-form input:focus{
+    outline: none;
+}
+
+/* ================ Login buttons ================ */
+
+.login-with{
+    padding: 12px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-with .heading{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #AAB7B8; 
+    line-height: 0.1em;
+}
+
+.login-with .heading span{
+    background:#FFF; 
+    padding:0 10px;
+    font-size: 22px;
+}
+
+.login-with1{
+    padding: 12px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-btn{
+    display: flex;
+}
+
+#custom a{
+    margin: 5px 10px;
+}
+
+/* ================ Responsive Design ================ */
+
+@media (max-width: 900px) {
+    .register-page .theme-card {
+        padding: 18px;
+    }
+    .theme-form input {
+        width: 100%;
+    }
+    .form-row div{
+        padding: 10px 10px;
+        width: 100%;
+    }
+    .login-with{
+        padding: 12px 10px;
+    }
+}

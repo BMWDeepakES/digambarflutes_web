@@ -1,0 +1,113 @@
+<div class="header">
+    <app-menu></app-menu>
+</div>
+
+
+<section class="register-page section-b-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="alert alert-danger" style="display: flex;justify-content: center;">
+                    <strong><i class="fa fa-warning" style="font-size:22px"></i></strong>&nbsp;&nbsp;do not refrash this page.
+                </div>
+                <h3>Personal Information</h3>
+                <div class="theme-card">
+                    <form class="theme-form">
+                        
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="email">First Name</label>
+                                &nbsp;
+                                <small class="text-danger">Invalid! should contains only alphabets.</small>
+                                <input type="text" class="form-control" id="fname" placeholder="chet">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Last Name</label>
+                                &nbsp; 
+                                <small class="text-danger">Invalid! should contains only alphabets.</small>
+                                <input type="text" class="form-control" id="lname" placeholder="Faker">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="number">Phone Number</label>
+                                &nbsp;
+                                <small class="text-danger">Invalid! should contain only numbers and length must be 10.</small>
+                                <input type="number" class="form-control" id="mobile" placeholder="98xxxxxx98">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">email</label>
+                                &nbsp;
+                                <small class="text-danger">Invalid! should contains valid email id.</small>
+                                <input type="text" class="form-control" id="email" placeholder="example@domain.com">
+                            </div>
+                        </div>
+
+                        
+                        <div class="form-row">
+                            <div class="col-md-4">
+                                <label for="email">Apartment/House Name</label>
+                                &nbsp;
+                                <small class="text-danger">Invalid!</small>
+                                <input type="text" class="form-control" id="guruji" placeholder="">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="review">Street/Lane</label>
+                                &nbsp; 
+                                <small class="text-danger">Invalid!</small>
+                                <input type="text" class="form-control" id="rcode" placeholder="">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="review">Area/Landmark</label>
+                                &nbsp; 
+                                <small class="text-danger">Invalid!</small>
+                                <input type="text" class="form-control" id="rcode" placeholder="">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="col-md-4">
+                                <label for="email">Pin-Code</label>
+                                &nbsp;
+                                <small class="text-danger">Invalid!</small>
+                                <input type="text" class="form-control" id="guruji" placeholder="">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="review">State Name</label>
+                                &nbsp; 
+                                <small class="text-danger">Invalid!</small>
+                                <input type="text" class="form-control" id="rcode" placeholder="">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="review">City</label>
+                                &nbsp; 
+                                <small class="text-danger">Invalid!</small>
+                                <input type="text" class="form-control" id="rcode" placeholder="">
+                            </div>
+                        </div>
+
+                        <!-- <div class="form-row">
+                            <div class="col-md-12">
+                                <label for="email">Address</label>
+                                &nbsp;
+                                <small class="text-danger">Invalid! should not be blank</small>
+                                <textarea></textarea>
+                            </div>
+                        </div> -->
+
+                        <a routerLink="./../confirm" class="btn btn-solid">Buy</a>
+
+                        <!-- <button type="submit" class="btn btn-solid">Buy</button> -->
+
+                        <button class="btn">
+                            <i class="fa fa-spinner fa-spin"aria-hidden="true"></i> 
+                            &nbsp;&nbsp; Loading ...
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

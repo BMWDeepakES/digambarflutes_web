@@ -1,0 +1,164 @@
+::ng-deep .owl-carousel .owl-item {
+    margin-top: 2rem;
+    
+}
+.card-filter {
+    position: absolute;
+    top: -2.5rem;
+    left: 27px;
+}
+.title{
+    text-align: center; 
+    border-bottom: 1px solid #A6ACAF; 
+    line-height: 0.1em;
+    margin: 50px 0;
+}
+
+.title span{
+    background:#FFF; 
+    padding:0 10px;
+    font-size: 1.4rem;
+    letter-spacing: 0.5rem; 
+    color: #A6ACAF;
+    text-transform: uppercase;
+}
+
+.card{
+    background: #fff;
+    width: 250px; 
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 0px;
+    margin: 20px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card .image{
+    height: 150px;
+    width: 200px;
+}
+.card .image img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.card .media-icon{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .media-icon i{
+    color: #fff;
+    margin-top: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card .media-icon i:hover{
+    opacity: 1;
+}
+
+.card .name-profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.card .name-profession span{
+    margin-top: 5px;
+}
+
+.card .name-profession .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .name-profession .profession{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card .name-profession .price{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.card .rating i{
+    font-size: 18px;
+    margin: 0 2px;
+    color: #f8bc04;
+}
+
+.card .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.card .button button{
+    background: #f8bc04;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 0px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card .button button:hover{
+    background: #dfa805;
+}
+
+.itm{
+    display: flex;
+    justify-content: center;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.category{
+    margin-left: 2rem;
+}
+.learn-more{
+    float: right;
+    margin-right: 2.5rem;
+    font-size: 20px;
+}
+.inner-section{
+    margin-bottom: 3rem;
+}
+@media only screen and (max-width: 800px) {
+    .title span{
+        font-size: 14px;
+    }
+}

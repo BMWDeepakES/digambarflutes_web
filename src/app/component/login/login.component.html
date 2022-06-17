@@ -1,0 +1,45 @@
+<section class="login-page section-b-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 card">
+                <h3>Login</h3>
+                <div class="theme-card">
+                    <form class="theme-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <label for="username">Phone/Email</label>
+                            &nbsp;<small
+                                [class.d-none]="loginForm.get('username')?.valid || loginForm.get('username')?.untouched"
+                                class="text-danger">Phone number / Email is required.</small>
+                            <input type="text" class="form-control" placeholder="98xxxxxx89 / example@domain.com"
+                                formControlName="username">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Password</label>
+                            <small
+                                [class.d-none]="loginForm.get('password')?.valid || loginForm.get('password')?.untouched"
+                                class="text-danger">Password is required.</small>
+                            <div style="display: flex; align-items: center;">
+                                <input [type]="fieldTextType ? 'text' : 'password'" placeholder="******"
+                                    class="form-control" id="review" formControlName="password">
+                                <span style="margin-left: -25px; cursor: pointer;">
+                                    <i class="fa" [ngClass]="{'fa-eye-slash': !fieldTextType,'fa-eye': fieldTextType }"
+                                        (click)="toggleFieldTextType()"></i>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" [disabled]="!loginForm.valid">Login</button>
+                            &nbsp; <a href=""> Forgot password?</a>
+                        </div>
+                        <div class="form-group">
+                            <a href=""> Create an Account </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section ends-->
